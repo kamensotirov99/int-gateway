@@ -1,1 +1,4 @@
-"# int-gateway" 
+`int-gateway initial commit`
+
+## To compile proto file, use the following command
+protoc --go_out=. --go-grpc_out=. service.proto
